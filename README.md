@@ -1,10 +1,5 @@
 # US_Accidents_Analysis-on-Databricks
 
-**Got it! Here’s your `README.md` rewritten in a **clean, professional GitHub format** (with proper headings, emojis, and spacing).**
-You can copy-paste this directly into your repo.
-
----
-
 # **US Accidents ETL Pipeline (Databricks Lakehouse)**
 
 ![Databricks](https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png)
