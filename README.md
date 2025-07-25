@@ -10,7 +10,7 @@
 
 This project demonstrates how to build a **production-ready ETL pipeline** using **Databricks (PySpark + Delta Lake)**, following the **Lakehouse architecture**.
 
-The pipeline processes the **US Accidents dataset (\~3M rows)** and transforms it through three layers:
+The pipeline processes the **US Accidents dataset (\~5M rows)** and transforms it through three layers:
 
 * **Bronze Layer** → Raw ingestion (CSV files as-is)
 * **Silver Layer** → Cleaned, curated Delta table
@@ -35,7 +35,7 @@ Raw CSV (DBFS) → Bronze (Raw Delta) → Silver (Clean Delta) → Gold (Aggrega
 ## **Dataset**
 
 * **Source**: [US Accidents (March 2023)](https://www.kaggle.com/sobhanmoosavi/us-accidents)
-* **Size**: \~5.7M rows, 50+ columns
+* **Size**: \~5.7M rows, 46 columns
 * **Key Columns**:
 
   * `ID` → Unique accident identifier
